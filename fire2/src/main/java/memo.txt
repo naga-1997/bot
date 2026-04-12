@@ -15,3 +15,6 @@ src/main/java/com/example/tradingbot
 │   └── TradingScheduler.java
 └── config
     └── RestTemplateConfig.java
+    
+    trial
+    
