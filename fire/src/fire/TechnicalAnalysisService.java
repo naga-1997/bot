@@ -1,4 +1,5 @@
-package fire;
+/*
+ * package fire;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -58,4 +59,4 @@ public class TechnicalAnalysisService {
         double rs = averageGain / averageLoss;
         return 100 - (100 / (1 + rs));
     }
-}
+}*/
