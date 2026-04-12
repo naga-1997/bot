@@ -1,4 +1,4 @@
-package com.example.nagashimatravel.TradingSignalResult;
+package com.example.nagashimatravel.dto;
 
 public class TradingSignalResult {
 	private final boolean shouldNotify;

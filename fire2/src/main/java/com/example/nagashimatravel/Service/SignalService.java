@@ -1,12 +1,19 @@
 package com.example.nagashimatravel.Service;
 
+/*
+ * ここで勝ちやすい組み合わせ3つを判定する。
+ * 
+ * 5SMA > 25SMA
+ * RSI 50以上70未満
+ * 現在出来高 > 20本平均出来高
+ */
+
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.nagashimatravel.SignalCandle.SignalCandle;
-import com.example.nagashimatravel.TechnicalAnalysisService.TechnicalAnalysisService;
-import com.example.nagashimatravel.TradingSignalResult.TradingSignalResult;
+import com.example.nagashimatravel.dto.SignalCandle;
+import com.example.nagashimatravel.dto.TradingSignalResult;
 
 @Service
 public class SignalService {
