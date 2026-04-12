@@ -1,0 +1,17 @@
+src/main/java/com/example/tradingbot
+├── TradingBotApplication.java
+├── controller
+│   └── TradingSignalController.java
+├── dto
+│   ├── SignalCandle.java
+│   ├── TradingSignalResult.java
+│   └── LinePushMessageRequest.java
+├── service
+│   ├── MarketDataService.java
+│   ├── TechnicalAnalysisService.java
+│   ├── SignalService.java
+│   └── LineMessagingService.java
+├── scheduler
+│   └── TradingScheduler.java
+└── config
+    └── RestTemplateConfig.java
