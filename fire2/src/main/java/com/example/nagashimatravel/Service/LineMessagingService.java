@@ -1,4 +1,4 @@
-package com.example.nagashimatravel.Line;
+package com.example.nagashimatravel.Service;
 
 import java.util.List;
 import java.util.Map;

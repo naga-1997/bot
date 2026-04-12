@@ -1,10 +1,10 @@
-package com.example.nagashimatravel.TechnicalAnalysisService;
+package com.example.nagashimatravel.Service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.nagashimatravel.SignalCandle.SignalCandle;
+import com.example.nagashimatravel.dto.SignalCandle;
 
 @Service
 public class TechnicalAnalysisService {

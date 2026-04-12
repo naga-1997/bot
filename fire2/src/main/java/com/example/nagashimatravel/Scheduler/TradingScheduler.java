@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.example.nagashimatravel.Line.LineMessagingService;
+import com.example.nagashimatravel.Service.LineMessagingService;
 import com.example.nagashimatravel.Service.SignalService;
-import com.example.nagashimatravel.SignalCandle.SignalCandle;
-import com.example.nagashimatravel.TradingSignalResult.TradingSignalResult;
+import com.example.nagashimatravel.dto.SignalCandle;
+import com.example.nagashimatravel.dto.TradingSignalResult;
 
 @Component
 public class TradingScheduler {

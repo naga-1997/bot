@@ -1,4 +1,4 @@
-package com.example.nagashimatravel.SignalCandle;
+package com.example.nagashimatravel.dto;
 
 public class SignalCandle {
     private final double close;
