@@ -1,5 +1,9 @@
 package com.example.nagashimatravel.Scheduler;
 
+/*
+ * 定期実行でスキャンする。
+ */
+
 import java.util.List;
 
 import org.springframework.scheduling.annotation.Scheduled;
