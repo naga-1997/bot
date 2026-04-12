@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.example.nagashimatravel.SignalCandle.SignalCandle;
+
 @Service
 public class TechnicalAnalysisService {
 
