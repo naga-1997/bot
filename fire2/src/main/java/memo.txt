@@ -16,5 +16,5 @@ src/main/java/com/example/tradingbot
 └── config
     └── RestTemplateConfig.java
     
-    trial
+    trialtrial
     
