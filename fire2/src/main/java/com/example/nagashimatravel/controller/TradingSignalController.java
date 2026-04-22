@@ -35,13 +35,13 @@ public class TradingSignalController {
     @GetMapping("/signal/{symbol}")
     public TradingSignalResult checkSignal(@PathVariable String symbol) {
         List<SignalCandle> candles = marketDataService.getRecentCandles(symbol);
-        return signalService.analyzeBuySignal(symbol, candles);
+        return signalService.checkBuySignal(symbol, candles);
     }
 
     @GetMapping("/signal/{symbol}/notify")
     public String checkSignalAndNotify(@PathVariable String symbol) {
         List<SignalCandle> candles = marketDataService.getRecentCandles(symbol);
-        TradingSignalResult result = signalService.analyzeBuySignal(symbol, candles);
+        TradingSignalResult result = signalService.checkBuySignal(symbol, candles);
 
         if (result.isShouldNotify()) {
             lineMessagingService.pushMessage(result.getMessage());
