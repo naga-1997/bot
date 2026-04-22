@@ -145,7 +145,6 @@ CREATE TABLE IF NOT EXISTS trading_signals (
 );
 
 
-
 -- =========================================
 -- 通知ログテーブル
 -- LINE通知を送った履歴を保存する
