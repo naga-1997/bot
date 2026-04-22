@@ -156,4 +156,3 @@ public class TradingSignal {
 		return createdAt;
 	}
 }
-
