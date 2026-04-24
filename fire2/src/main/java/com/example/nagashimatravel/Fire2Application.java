@@ -7,6 +7,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 public class Fire2Application {
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Fire2Application.class, args);
 	}
